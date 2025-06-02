@@ -375,9 +375,9 @@ workflows:
     jobs:
       - save_and_restore_cache
       - contexts:
-          context: org-global
+          context: org-global2
       - multi-contexts:
-          context: individual-local
+          context: individual-local2
       - write_workspace
       - read_workspace:
           requires:
